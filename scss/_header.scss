@@ -1,0 +1,13 @@
+.header {
+    text-decoration: none;
+    background-image: url(../img/ceramica7.jpg);
+    margin: 10px 10px 10px 10px;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: $header_alto; }
+    .header .header__titulo {
+      font-family: 'Supermercado One', cursiva;
+      color: #BF7F5A;
+      text-align: center;
+      font-size: 50px; }

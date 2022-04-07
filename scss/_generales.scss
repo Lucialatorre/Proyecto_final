@@ -1,0 +1,18 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+@if $modo == dark {
+    body{
+        background-color: $dark_background;
+
+    }
+    .card{
+        background-color: $dark_background_card;
+        color:$dark_text;
+        a{
+            color:$dark_link;
+        }
+    }
+}
